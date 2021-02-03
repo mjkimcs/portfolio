@@ -1,4 +1,4 @@
-# Portfolio_Data Scientist
+# Portfolio_Data Science
 ## 1. 수집
 1_1. 데이터베이스와 SQL 실습(진행중)  
 1_2. 웹 스크래핑_네이버 웹툰에서 평점 정보 가져오기
