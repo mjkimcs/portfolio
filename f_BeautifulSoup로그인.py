@@ -12,7 +12,7 @@ data = {
 "errorChk":"",
 "gourl": "https%3A%2F%2Fwww.donga.com%2Farchive%2Fnewslibrary%2Fview%3Fymd%3D19960210%26mode%3D19960210%2F0002701568%2F1",
 "bid": "11lalala",
-"bpw": "ehddkektzja1"
+"bpw": "1234"
 }
 headers = {"Referer": "https://secure.donga.com/membership/login.php?gourl=https%3A%2F%2Fwww.donga.com%2Farchive%2Fnewslibrary%2Fview%3Fymd%3D19960210%26mode%3D19960210%2F0002701568%2F1"}
 sess.post("https://secure.donga.com/membership/trans_exe.php", data=data, headers=headers)
