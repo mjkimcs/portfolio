@@ -15,7 +15,8 @@
 * selenium_마우스 스크롤 동작_유튜브 댓글 수집하기  
 * 속도향상(BeautifulSoup)_ LOL게임 카운터 챔피언 
 * 속도향상(BeautifulSoup)_ 로그인 후 뉴스 제목과 내용 가져오기  
-* BeautifulSoup_requests.get_쿠팡 상품정보와 이미지
+* BeautifulSoup_requests.get_쿠팡 상품정보와 이미지  
+
 1_4. API  
 * 날씨정보  
 * folium_따릉이 실시간 대여정보를 가져와서 지도에 표시하기  
