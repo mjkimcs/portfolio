@@ -16,7 +16,7 @@
 * 속도향상(BeautifulSoup)_ LOL게임 카운터 챔피언 
 * 속도향상(BeautifulSoup)_ 로그인 후 뉴스 제목과 내용 가져오기  
 * BeautifulSoup_requests.get_쿠팡 상품정보와 이미지  
-* BeautifulSoup_네이버 인기검색어top20 관련기사 한눈에 보기
+* BeautifulSoup_네이버 인기검색어top20 관련기사 한눈에 보기  
 
 1_4. API  
 * 날씨정보  
