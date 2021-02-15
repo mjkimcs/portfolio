@@ -15,8 +15,9 @@
 * selenium_마우스 스크롤 동작_유튜브 댓글 수집하기  
 * 속도향상(BeautifulSoup)_ LOL게임 카운터 챔피언 
 * 속도향상(BeautifulSoup)_ 로그인 후 뉴스 제목과 내용 가져오기  
-* BeautifulSoup_requests.get_쿠팡 상품정보와 이미지  
+* BeautifulSoup_requests.get_쿠팡 상품정보와 이미지(**심화**)  
 * BeautifulSoup_네이버 인기검색어top20 관련기사 한눈에 보기  
+* selenium_프레임전환_nth-child_중고나라에서 구매할 물건이 올라오면 문자알림 받기  
 
 1_4. API  
 * 날씨정보  
@@ -27,9 +28,8 @@
 
 1_5. 업무자동화
 * selenium_IG 좋아요 누르기  
-* selenium_프레임전환_카페 글쓰기  
-* selenium_프레임전환_nth-child_중고나라에서 구매할 물건이 올라오면 문자알림 받기  
-* 각각 다른 내용과 파일을 첨부하여 메일전송 자동화
+* selenium_프레임전환_카페 글쓰기   
+* 각각 다른 내용과 파일을 첨부하여 메일전송 자동화  
 
 1_6. 엑셀자동화  
 ## 2. 분석
@@ -46,6 +46,7 @@
 2_10. SQL 활용_RFM [참고]RFM_분석.zip  
 2_11. SQL 활용_롤링리텐션 산출  
 2_12. SQL 활용_코호트 분석  
+2_13. 언어종류와 알파벳 출현 빈도수 간의 연관성 증명  
 ## 3. 활용(Visualization)
 3_1. Tableau(예정)  
 3_2. PowerBI(예정)  
