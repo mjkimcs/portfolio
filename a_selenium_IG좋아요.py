@@ -40,7 +40,7 @@ while True:
     value = like.get_attribute("aria-label")
     next = b.find_element_by_css_selector("a._65Bje.coreSpriteRightPaginationArrow")
 
-    nick_name = b.find_elements_by_css_selector("a.sqdOP.yWX7d._8A5w5.ZIAjV")
+    nick_name = b.find_element_by_css_selector("a.sqdOP.yWX7d._8A5w5.ZIAjV")
     content = b.find_element_by_css_selector("div.C4VMK > span")
     content_norm = unicodedata.normalize("NFC", content.text) #한글 자모음 분리현상 해결
 
