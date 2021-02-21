@@ -3,6 +3,27 @@
 # 구글링 qt designer download - https://build-system.fman.io/qt-designer-download
 # 맥 : Designer 탭 - Preferences - Docked window - OK
 
+
+
+# [ Worker1이 Worker2에게 신호를 보내는 경우 ]
+# 1. (Worker1 공간)신호를 정의 ex)login_signal = pyqtSignal()
+# 2. (Worker1 공간)Worker2에게 신호 보내기 ex)self.login_signal.connect(self.worker.login)
+# 3. (Worker2 공간)login함수 실행
+#
+# [ Worker2가 Worker1에게 신호를 보내는 경우 ] 1탄
+# 1. (Worker2 공간)신호를 정의 ex)login_progress_signal = pyqtsignal(int)
+# 2. (Worker2 공간)Worker1에게 신호 보내기 ex)self.login_progress_signal.emit(10)
+# 3. (Worker1 공간)Worker1이 신호를 받기 ex)self.worker.login_progress_signal.connect(self.login_progress.setValue)
+# 4. (Worker1 공간)login_progress 초기값 설정하기 ex)self.login_progress.setValue(0)
+#
+# [ Worker2가 Worker1에게 신호를 보내는 경우 ] 2탄
+# 1. (Worker2 공간)신호를 정의 ex)content_signal = pyqtsignal(str)
+# 2. (Worker2 공간)Worker1에게 신호 보내기 ex)self.content_signal.emit(content.text)
+# 3. (Worker1 공간)Worker1이 신호를 받기 ex)self.worker.content_signal.connect(self.show_content)
+# 4. (Worker1 공간)show_content함수 정의하기 ex)def show_content(self, data): self.txt.setText(data)
+
+
+
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
 import sys
@@ -51,7 +72,7 @@ class SeleniumWorker(QObject): # Selenium 동작만을 위한 Worker2 생성
         else:
             self.login_success_signal.emit(False)
 
-    def hashtag(self):
+    def search(self):
         self.search_progress_signal.emit(20)
         url = "https://www.instagram.com/explore/tags/{}/".format(self.user_keyword)
         self.b.get(url)
@@ -70,7 +91,6 @@ class SeleniumWorker(QObject): # Selenium 동작만을 위한 Worker2 생성
             next = self.b.find_element_by_css_selector("a._65Bje.coreSpriteRightPaginationArrow")
             img = self.b.find_element_by_css_selector("article.M9sTE.L_LMM.JyscU.ePUX4 img.FFVAD")
             content = self.b.find_element_by_css_selector("div.C4VMK > span")
-            # content_norm = unicodedata.normalize("NFC", content.text)  # 한글 자모음 분리현상 해결
             self.content_signal.emit(content.text)
             self.img_signal.emit(img.get_attribute("src"))
             if value == "좋아요":  # 좋아요가 안 눌려져 있다면
@@ -84,28 +104,31 @@ class SeleniumWorker(QObject): # Selenium 동작만을 위한 Worker2 생성
 
 
 
-class MainDialog(QDialog): # Worker1
+class MainDialog(QDialog): # Worker1 창 관리
     login_signal = pyqtSignal() # Worker2에게 신호를 보내기 위한 기반작업
     search_signal = pyqtSignal()
     def __init__(self):
         QDialog.__init__(self, None)
         uic.loadUi(ui_file, self)
 
-        self.worker = SeleniumWorker() # Worker2 작업공간에 배치
+        self.worker = SeleniumWorker() # Worker2를 작업공간에 배치
         self.thread = QThread() # 작업공간 만들어주기
         self.worker.moveToThread(self.thread)
-        self.thread.start() # Worker2 작업공간에 배치 시작
+        self.thread.start() # Worker2를 작업공간에 배치 시작
 
         self.button_search.setEnabled(False)
         self.login_progress.setValue(0)
         self.search_progress.setValue(0)
+
         self.button_login.clicked.connect(self.login_start)
 
-        self.login_signal.connect(self.worker.login) # Worker2에게 신호를 보내기 위한 연결작업
-        self.worker.login_progress_signal.connect(self.login_progress.setValue) # Worker2가 신호를 보내는 것을 받기위한 연결작업
+        self.login_signal.connect(self.worker.login) # Worker2에게 신호를 보내기
+        self.worker.login_progress_signal.connect(self.login_progress.setValue) # Worker2가 신호를 보내는 것을 받기
         self.worker.login_success_signal.connect(self.finish_login)
+
         self.button_search.clicked.connect(self.search_start)
-        self.search_signal.connect(self.worker.hashtag)
+
+        self.search_signal.connect(self.worker.search)
         self.worker.search_progress_signal.connect(self.search_progress.setValue)
         self.worker.search_success_signal.connect(self.finish_search)
         self.worker.content_signal.connect(self.show_content)
