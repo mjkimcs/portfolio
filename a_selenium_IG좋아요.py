@@ -9,7 +9,7 @@ if not os.path.exists("./인스타그램.xlsx"):
     book = openpyxl.Workbook()
     book.save("./인스타그램.xlsx")
 
-book = openpyxl.load_workbook(".인스타그램.xlsx")
+book = openpyxl.load_workbook("./인스타그램.xlsx")
 # sheet = book["Sheet1"]
 sheet = book.active #Sheet 지정없이 그냥 자동으로 열리는 현재 Sheet
 
@@ -24,8 +24,7 @@ id.send_keys("2min_kim")
 pw = b.find_element_by_name("password")
 pw.send_keys("min")
 b.find_element_by_css_selector("div.Igw0E.IwRSH.eGOV_._4EzTm.bkEs3.CovQj.jKUp7.DhRcB").click()
-time.sleep(3)
-b.find_element_by_css_selector("button.aOOlW.HoLwm").click()
+time.sleep(4)
 
 url = "https://www.instagram.com/explore/tags/{}/".format(hash_tag)
 b.get(url)
@@ -36,7 +35,7 @@ time.sleep(3)
 
 row_num = 1
 while True:
-    like = b.find_element_by_css_selector("section.ltpMr.Slqrh button.wpO6b  svg._8-yf5")
+    like = b.find_element_by_css_selector("section.ltpMr.Slqrh button.wpO6b svg._8-yf5")
     value = like.get_attribute("aria-label")
     next = b.find_element_by_css_selector("a._65Bje.coreSpriteRightPaginationArrow")
 
