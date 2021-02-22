@@ -14,10 +14,12 @@
 * 속도향상(headless)_ 네이버 로그인 후 메일제목 가져오기  
 * selenium_마우스 스크롤 동작_유튜브 댓글 수집하기  
 * 속도향상(BeautifulSoup)_ LOL게임 카운터 챔피언 
-* 속도향상(BeautifulSoup)_ 로그인 후 뉴스 제목과 내용 가져오기  
+* (심화)속도향상(BeautifulSoup)_ Network탭_requests.session.get_로그인 후 뉴스 제목과 내용    
 * (심화)BeautifulSoup_requests.get_쿠팡 상품정보와 이미지   
 * BeautifulSoup_네이버 인기검색어top20 관련기사 한눈에 보기  
 * selenium_프레임전환_nth-child_중고나라에서 구매할 물건이 올라오면 문자알림 받기  
+* (심화)Beautifulsoup_Network탭_requests.get_뉴스 제목과 내용  
+* Beautifulsoup_Network탭_requests.post_국민청원 게시판 크롤링  
 
 1_4. API  
 * 날씨정보  
