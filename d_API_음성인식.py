@@ -6,6 +6,16 @@
 # Application 등록 - 이름 test - https://test.com - 등록
 # 인증정보 ID와 Secret
 
+# 여러개 파일 불러오기
+# import glob
+
+# files = glob.glob("(폴더경로)/*.mp3") # 해당 폴더 안에 들어있는 mp3 파일을 전부 가져옴
+# for i in files:
+#     ...(코드 생략)... 
+#     data = open(file, "r")
+#     ....(코드 생략)...
+
+
 import sys
 import requests
 
