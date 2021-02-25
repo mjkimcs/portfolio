@@ -59,7 +59,8 @@
 2_15. 텍스트마이닝_단어구름  
 2_16. 텍스트마이닝_감성분석  
 2_17. 텍스트마이닝_연관분석  
-2_18. Regression_dirty 데이터 처리_중고차 가격 예측하기  
+2_18. Regression_dirty 데이터 처리_중고차 가격 예측  
+2_19. Regression_dirty 데이터 처리_Airbnb 숙박료 예측  
 ## 3. 활용(Visualization)
 3_1. Tableau(예정)  
 3_2. PowerBI(예정)  
