@@ -61,6 +61,7 @@
 2_17. 텍스트마이닝_연관분석  
 2_18. Regression_dirty 데이터 처리_중고차 가격 예측  
 2_19. Regression_dirty 데이터 처리_Airbnb 숙박료 예측  
+2_20. Regression_여러개 df_누적합 barplot_각 feature별 중요도_행복지수 예측  
 ## 3. 활용(Visualization)
 3_1. Tableau(예정)  
 3_2. PowerBI(예정)  
