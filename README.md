@@ -5,12 +5,12 @@
 * selenium_인스타그램 좋아요 자동 누르기  
 * selenium_네이버 로그인
 * selenium_스크롤_유튜브 댓글  
-* beautifulsoup(속도향상)_ LOL게임  
-* beautifulsoup_Network탭_동아아카이브 로그인
-* beautifulsoup_requests.get_쿠팡 상품 및 이미지 정보  
-* beautifulsoup_Network탭_requests.get_json_뉴스기사
 * beautifulsoup_로또 번호 빈도수 시각화  
-* 국민청원  
+* beautifulsoup_ LOL게임  
+* beautifulsoup_requests.get_쿠팡 상품 및 이미지 정보    
+* beautifulsoup_Network탭_requests.get_json_뉴스기사  
+* beautifulsoup_Network탭_requests.post_국민청원  
+* beautifulsoup_Network탭_sess.post_동아아카이브 로그인   
 
 1_2. API  
 * 날씨 정보  
@@ -30,6 +30,7 @@
 * selenium_frame_카페 글 자동으로 게시하기  
 * selenium_중고나라 새 게시물이 올라오면 문자 보내기  
 * 네이버 메일 각각 다른내용과 첨부파일 전송  
+
 1_5. 엑셀자동화  
 
 ### 2. 분석
