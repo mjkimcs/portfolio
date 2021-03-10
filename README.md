@@ -4,11 +4,11 @@
 1_1. 웹 스크래핑  
 * a. beautifulsoup_네이버웹툰_평점  
 * b. beautifulsoup_환율계산기  
-* c. selenium_인스타그램 좋아요 자동 누르기  
-* d. selenium_네이버 로그인  
-* e. selenium_스크롤_유튜브 댓글  
-* f. beautifulsoup_로또 번호 빈도수 시각화  
-* g. beautifulsoup_ LOL게임  
+* c. beautifulsoup_로또 번호 빈도수 시각화  
+* d. beautifulsoup_ LOL게임  
+* e. selenium_인스타그램 좋아요 자동 누르기  
+* f. selenium_네이버 로그인  
+* g. selenium_스크롤_유튜브 댓글  
 * h. beautifulsoup_requests.get_쿠팡 상품 및 이미지 정보    
 * i. beautifulsoup_Network탭_requests.get_json_뉴스기사  
 * j. beautifulsoup_Network탭_requests.post_국민청원  
