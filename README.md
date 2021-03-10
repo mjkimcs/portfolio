@@ -1,16 +1,18 @@
 ## Data Science_Portfolio
 ### 1. 수집
 1_0. 데이터베이스와 SQL  
-1_1. 웹크롤링  
-* a. selenium_인스타그램 좋아요 자동 누르기  
-* b. selenium_네이버 로그인  
-* c. selenium_스크롤_유튜브 댓글  
-* d. beautifulsoup_로또 번호 빈도수 시각화  
-* e. beautifulsoup_ LOL게임  
-* f. beautifulsoup_requests.get_쿠팡 상품 및 이미지 정보    
-* g. beautifulsoup_Network탭_requests.get_json_뉴스기사  
-* h. beautifulsoup_Network탭_requests.post_국민청원  
-* i. beautifulsoup_Network탭_sess.post_동아아카이브 로그인   
+1_1. 웹 스크래핑  
+* a. beautifulsoup_네이버웹툰_평점  
+* b. beautifulsoup_환율계산기  
+* c. selenium_인스타그램 좋아요 자동 누르기  
+* d. selenium_네이버 로그인  
+* e. selenium_스크롤_유튜브 댓글  
+* f. beautifulsoup_로또 번호 빈도수 시각화  
+* g. beautifulsoup_ LOL게임  
+* h. beautifulsoup_requests.get_쿠팡 상품 및 이미지 정보    
+* i. beautifulsoup_Network탭_requests.get_json_뉴스기사  
+* j. beautifulsoup_Network탭_requests.post_국민청원  
+* k. beautifulsoup_Network탭_sess.post_동아아카이브 로그인   
 
 1_2. API  
 * a. 날씨 정보  
