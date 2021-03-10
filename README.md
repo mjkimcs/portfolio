@@ -5,12 +5,12 @@
 * selenium_인스타그램 좋아요 자동 누르기  
 * selenium_네이버 로그인
 * selenium_스크롤_유튜브 댓글  
-* beautifulsoup(속도향상)_LOL게임  
-* beautifulsoup_Network탭_동아일보 로그인
+* beautifulsoup(속도향상)_ LOL게임  
+* beautifulsoup_Network탭_동아아카이브 로그인
 * beautifulsoup_requests.get_쿠팡 상품 및 이미지 정보  
+* beautifulsoup_Network탭_requests.get_json_뉴스기사
+* beautifulsoup_로또 번호 빈도수 시각화  
 * 국민청원  
-* 쿠팡 이미지  
-* beautifulsoup_로또 번호 빈도수 시각화
 
 1_2. API  
 * 날씨 정보  
