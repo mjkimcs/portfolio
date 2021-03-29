@@ -69,7 +69,7 @@
 * d. 텍스트마이닝_연관분석  
 
 2_5. 비지도학습
-* a. 군집화_PCA  
+* a. 군집화_비선형 데이터 생성_Kernel PCA 적용  
 
 ### 3. 활용 (Visualization)
 3_1. flask  
