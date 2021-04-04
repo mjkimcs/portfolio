@@ -73,5 +73,5 @@
 
 ### 3. 활용 (Visualization)
 3_1. flask  
-3_2. Tableau(예정)  
+3_2. Tableau  
 3_3. Power BI(예정)  
