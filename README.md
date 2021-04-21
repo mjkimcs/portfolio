@@ -1,7 +1,7 @@
 ## Data Science_Portfolio
 ### 1. 수집
 1_0. 데이터베이스와 [SQL](https://github.com/mjkimcs/portfolio/tree/main/SQL)  
-1_1. 웹 스크래핑  
+1_1. [웹 스크래핑](https://github.com/mjkimcs/portfolio/tree/main/%EC%9B%B9%EC%8A%A4%ED%81%AC%EB%9E%98%ED%95%91)  
 * a. beautifulsoup_네이버웹툰_평점  
 * b. beautifulsoup_환율계산기  
 * c. beautifulsoup_로또 번호 빈도수 시각화  
@@ -27,7 +27,7 @@
 * c. 무비차트  
 * d. 인스타그램  
 
-1_4. 업무자동화  
+1_4. [업무자동화](https://github.com/mjkimcs/portfolio/tree/main/%EC%97%85%EB%AC%B4%EC%9E%90%EB%8F%99%ED%99%94)  
 * a. selenium_frame_카페 글 자동으로 게시하기  
 * b. selenium_중고나라 새 게시물이 올라오면 문자 보내기  
 * c. 네이버 메일 각각 다른내용과 첨부파일 전송  
@@ -35,7 +35,7 @@
 
 ### 2. 분석
 2_0. 머신러닝 시작하기  
-2_1. 분류 모형  
+2_1. [분류 모형](https://github.com/mjkimcs/portfolio/tree/main/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D_%EB%B6%84%EB%A5%98)  
 * a. Titanic 생존여부 예측  
 * b. 과적합 해결  
 * c. 카드사기탐지(미학습)  
@@ -47,7 +47,7 @@
 * i. 언어감지_언어의 종류와 알파벳 출현 빈도수 간의 연관성 증명  
 * j. 철판제조공정 데이터로 어떤 불량인지 분류_파라미터 최적화  
 
-2_2. 회귀 모형  
+2_2. [회귀 모형](https://github.com/mjkimcs/portfolio/tree/main/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D_%ED%9A%8C%EA%B7%80)  
 * a. 비정형데이터_자연어처리_국민청원 투표수 예측  
 * b. dirty 데이터_중고차가격 예측  
 * c. Airbnb_숙박료 예측  
@@ -63,9 +63,9 @@
 
 2_4. 기타  
 * a. MNIST_손글씨 인식  
-* b. 텍스트마이닝_단어구름  
-* c. 텍스트마이닝_감성분석  
-* d. 텍스트마이닝_연관분석  
+* b. [텍스트마이닝_단어구름](https://github.com/mjkimcs/portfolio/blob/main/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D/24b_%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D_%EB%8B%A8%EC%96%B4%EA%B5%AC%EB%A6%84.ipynb)  
+* c. [텍스트마이닝_감성분석](https://github.com/mjkimcs/portfolio/blob/main/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D/24c_%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D_%EA%B0%90%EC%84%B1%EB%B6%84%EC%84%9D.ipynb)  
+* d. [텍스트마이닝_연관분석](https://github.com/mjkimcs/portfolio/blob/main/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D/24d_%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D_%EC%97%B0%EA%B4%80%EB%B6%84%EC%84%9D.ipynb)  
 
 2_5. 비지도학습
 * a. 군집화_비선형 데이터 생성_Kernel PCA 적용  
