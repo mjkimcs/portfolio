@@ -1,6 +1,6 @@
 ## Data Science_Portfolio
 ### 1. 수집
-1_0. 데이터베이스와 SQL  
+1_0. 데이터베이스와 [SQL](https://github.com/mjkimcs/portfolio/tree/main/SQL)  
 1_1. 웹 스크래핑  
 * a. beautifulsoup_네이버웹툰_평점  
 * b. beautifulsoup_환율계산기  
@@ -14,14 +14,14 @@
 * j. beautifulsoup_Network탭_requests.post_국민청원  
 * k. beautifulsoup_Network탭_sess.post_동아아카이브 로그인   
 
-1_2. API  
+1_2. [API](https://github.com/mjkimcs/portfolio/tree/main/API)  
 * a. 날씨 정보  
 * b. 따릉이 정보 시각화  
 * c. 파파고 언어번역  
 * d. CLOVA 음성인식  
 * e. LINE 알림봇  
 
-1_3. GUI  
+1_3. [GUI](https://github.com/mjkimcs/portfolio/tree/main/GUI)  
 * a. 기본  
 * b. 공학용계산기  
 * c. 무비차트  
@@ -56,7 +56,7 @@
 * f. 시계열데이터_COVID-19 확진자 수 예측  
 * g. 배틀그라운드 여포vs존버  
 
-2_3. SQL 활용   
+2_3. [SQL](https://github.com/mjkimcs/portfolio/tree/main/SQL) 활용   
 * a. RFM 분석  
 * b. 리텐션 분석  
 * c. 코호트 분석  
