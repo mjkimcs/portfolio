@@ -46,6 +46,7 @@
 * h. 미대선 예측_PCA 활용  
 * i. 언어감지_언어의 종류와 알파벳 출현 빈도수 간의 연관성 증명  
 * j. 철판제조공정 데이터로 어떤 불량인지 분류_파라미터 최적화  
+* k. MNIST_손글씨 인식  
 
 2_2. [회귀 모형](https://github.com/mjkimcs/portfolio/tree/main/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D_%ED%9A%8C%EA%B7%80)  
 * a. 비정형데이터_자연어처리_국민청원 투표수 예측  
@@ -61,11 +62,10 @@
 * b. 리텐션 분석  
 * c. 코호트 분석  
 
-2_4. 기타  
-* a. MNIST_손글씨 인식  
-* b. [텍스트마이닝_단어구름](https://github.com/mjkimcs/portfolio/blob/main/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D/24b_%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D_%EB%8B%A8%EC%96%B4%EA%B5%AC%EB%A6%84.ipynb)  
-* c. [텍스트마이닝_감성분석](https://github.com/mjkimcs/portfolio/blob/main/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D/24c_%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D_%EA%B0%90%EC%84%B1%EB%B6%84%EC%84%9D.ipynb)  
-* d. [텍스트마이닝_연관분석](https://github.com/mjkimcs/portfolio/blob/main/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D/24d_%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D_%EC%97%B0%EA%B4%80%EB%B6%84%EC%84%9D.ipynb)  
+2_4. [텍스트마이닝](https://github.com/mjkimcs/portfolio/tree/main/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D)  
+* a. 텍스트마이닝_단어구름
+* b. 텍스트마이닝_감성분석
+* c. 텍스트마이닝_연관분석
 
 2_5. [비지도학습](https://github.com/mjkimcs/portfolio/tree/main/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D_%EB%B9%84%EC%A7%80%EB%8F%84)
 * a. 군집화_비선형 데이터 생성_Kernel PCA 적용  
