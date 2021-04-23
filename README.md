@@ -67,7 +67,7 @@
 * c. [텍스트마이닝_감성분석](https://github.com/mjkimcs/portfolio/blob/main/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D/24c_%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D_%EA%B0%90%EC%84%B1%EB%B6%84%EC%84%9D.ipynb)  
 * d. [텍스트마이닝_연관분석](https://github.com/mjkimcs/portfolio/blob/main/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D/24d_%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A7%88%EC%9D%B4%EB%8B%9D_%EC%97%B0%EA%B4%80%EB%B6%84%EC%84%9D.ipynb)  
 
-2_5. 비지도학습
+2_5. [비지도학습](https://github.com/mjkimcs/portfolio/tree/main/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D_%EB%B9%84%EC%A7%80%EB%8F%84)
 * a. 군집화_비선형 데이터 생성_Kernel PCA 적용  
 
 ### 3. 활용 (Visualization)
