@@ -70,7 +70,7 @@
 2_5. [비지도학습](https://github.com/mjkimcs/portfolio/tree/main/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D_%EB%B9%84%EC%A7%80%EB%8F%84)
 * a. 군집화_비선형 데이터 생성_Kernel PCA 적용  
 
-### 3. 활용 (Visualization)
+### 3. [활용 (Visualization)](https://github.com/mjkimcs/portfolio/tree/main/Visualization)
 3_1. flask  
 3_2. Tableau  
 3_3. Power BI(예정)  
