@@ -1,5 +1,5 @@
 #urlopen함수보다 더 안정적인 requests.get함수 사용(code.text 주의)
-#이미지 크롤링 심화: .jpg가 아닌 .git가 있을 경우
+#이미지 크롤링 심화: .jpg가 아닌 .gif가 있을 경우
 
 from bs4 import BeautifulSoup #pip install beautifulsoup4
 import requests #pip install requests
