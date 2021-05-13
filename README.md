@@ -13,6 +13,7 @@
 * i. beautifulsoup_Network탭_requests.get_json_뉴스기사  
 * j. beautifulsoup_Network탭_requests.post_국민청원  
 * k. beautifulsoup_Network탭_sess.post_동아아카이브 로그인   
+* l. beautifulsoup_이미지_멜론음원차트  
 
 1_2. [API](https://github.com/mjkimcs/portfolio/tree/main/API)  
 * a. 날씨 정보  
