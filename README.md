@@ -1,4 +1,5 @@
-## Data Science_Portfolio
+## Data Science_Portfolio (For study purpose)
+
 ### 1. 수집
 1_0. 데이터베이스와 [SQL](https://github.com/mjkimcs/portfolio/tree/main/SQL)  
 1_1. [웹 스크래핑](https://github.com/mjkimcs/portfolio/tree/main/%EC%9B%B9%EC%8A%A4%ED%81%AC%EB%9E%98%ED%95%91)  
