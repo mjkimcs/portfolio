@@ -1,3 +1,4 @@
+unixodbc-dev
 import streamlit as st
 from PIL import Image
 import tensorflow as tf
