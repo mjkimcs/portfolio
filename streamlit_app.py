@@ -40,28 +40,29 @@ st.text("\n")
 st.text("\n")
 st.text("\n")
 
+class_names = [
+    '후라이드치킨', '간장게장', '갈비구이', '갈비찜', '갈비탕', '갈치구이', '갈치조림', '감자전', '감자조림', '감자채볶음', '감자탕', '갓김치', '건새우볶음', '경단',
+    '계란국', '계란말이', '계란찜', '계란후라이', '고등어구이', '고등어조림', '고사리나물', '고추장진미채볶음', '고추튀김', '곱창구이', '곱창전골', '과메기', '김밥',
+    '김치볶음밥', '김치전', '김치찌개', '김치찜', '깍두기', '깻잎장아찌', '꼬막찜', '꽁치조림', '꽈리고추무침', '꿀떡', '나박김치', '누룽지', '닭갈비', '닭계장',
+    '닭볶음탕', '더덕구이', '도라지무침', '도토리묵', '동그랑땡', '동태찌개', '된장찌개', '두부김치', '두부조림', '땅콩조림', '떡갈비', '떡꼬치', '떡만두국', '떡볶이',
+    '라면', '라볶이', '막국수', '만두', '매운탕', '멍게', '메추리알장조림', '멸치볶음', '무국', '무생채', '물냉면', '물회', '미역국', '미역줄기볶음', '불고기', '전복죽'
+]
+
 st.subheader('아침')
 img = Image.open("./Img_test_omelet.jpg")
 st.image(img, width=400, caption="입력 데이터 : 계란말이")
 
 if st.button("아침 분석하기"):
-    path = "./Img_test_omelet.jpg"
-    img = keras.preprocessing.image.load_img(
-     path, target_size=(180, 180)
-    )
-
-    img_array = keras.preprocessing.image.img_to_array(img)
-    img_array = tf.expand_dims(img_array, 0)  # Create a batch
-    model = keras.models.load_model('./kf_model2.h5')
-    predictions = model.predict(img_array)
-    score = tf.nn.softmax(predictions[0])
-    class_names = [
-        '후라이드치킨', '간장게장', '갈비구이', '갈비찜', '갈비탕', '갈치구이', '갈치조림', '감자전', '감자조림', '감자채볶음', '감자탕', '갓김치', '건새우볶음', '경단',
-         '계란국', '계란말이', '계란찜', '계란후라이', '고등어구이', '고등어조림', '고사리나물', '고추장진미채볶음', '고추튀김', '곱창구이', '곱창전골', '과메기', '김밥',
-         '김치볶음밥', '김치전', '김치찌개', '김치찜', '깍두기', '깻잎장아찌', '꼬막찜', '꽁치조림', '꽈리고추무침', '꿀떡', '나박김치', '누룽지', '닭갈비', '닭계장',
-         '닭볶음탕', '더덕구이', '도라지무침', '도토리묵', '동그랑땡', '동태찌개', '된장찌개', '두부김치', '두부조림', '땅콩조림', '떡갈비', '떡꼬치', '떡만두국', '떡볶이',
-         '라면', '라볶이', '막국수', '만두', '매운탕', '멍게', '메추리알장조림', '멸치볶음', '무국', '무생채', '물냉면', '물회', '미역국', '미역줄기볶음', '불고기', '전복죽'
-    ]
+    # path = "./Img_test_omelet.jpg"
+    # img = keras.preprocessing.image.load_img(
+    #  path, target_size=(180, 180)
+    # )
+    #
+    # img_array = keras.preprocessing.image.img_to_array(img)
+    # img_array = tf.expand_dims(img_array, 0)  # Create a batch
+    # model = keras.models.load_model('./kf_model2.h5')
+    # predictions = model.predict(img_array)
+    # score = tf.nn.softmax(predictions[0])
 
     # st.text(
     #  "예측값: {}(정확도 {:.2f}%)"
@@ -78,23 +79,16 @@ img = Image.open("./Img_test_rib.jpg")
 st.image(img, width=400, caption="입력 데이터 : 갈비탕")
 
 if st.button("점심 분석하기"):
-    path2 = "./Img_test_rib.jpg"
-    img = keras.preprocessing.image.load_img(
-     path2, target_size=(180, 180)
-    )
+    # path2 = "./Img_test_rib.jpg"
+    # img = keras.preprocessing.image.load_img(
+    #  path2, target_size=(180, 180)
+    # )
 
-    img_array = keras.preprocessing.image.img_to_array(img)
-    img_array = tf.expand_dims(img_array, 0)  # Create a batch
-    model = keras.models.load_model('./kf_model2.h5')
-    predictions = model.predict(img_array)
-    score = tf.nn.softmax(predictions[0])
-    class_names = [
-        '후라이드치킨', '간장게장', '갈비구이', '갈비찜', '갈비탕', '갈치구이', '갈치조림', '감자전', '감자조림', '감자채볶음', '감자탕', '갓김치', '건새우볶음', '경단',
-         '계란국', '계란말이', '계란찜', '계란후라이', '고등어구이', '고등어조림', '고사리나물', '고추장진미채볶음', '고추튀김', '곱창구이', '곱창전골', '과메기', '김밥',
-         '김치볶음밥', '김치전', '김치찌개', '김치찜', '깍두기', '깻잎장아찌', '꼬막찜', '꽁치조림', '꽈리고추무침', '꿀떡', '나박김치', '누룽지', '닭갈비', '닭계장',
-         '닭볶음탕', '더덕구이', '도라지무침', '도토리묵', '동그랑땡', '동태찌개', '된장찌개', '두부김치', '두부조림', '땅콩조림', '떡갈비', '떡꼬치', '떡만두국', '떡볶이',
-         '라면', '라볶이', '막국수', '만두', '매운탕', '멍게', '메추리알장조림', '멸치볶음', '무국', '무생채', '물냉면', '물회', '미역국', '미역줄기볶음', '불고기', '전복죽'
-    ]
+    # img_array = keras.preprocessing.image.img_to_array(img)
+    # img_array = tf.expand_dims(img_array, 0)  # Create a batch
+    # model = keras.models.load_model('./kf_model2.h5')
+    # predictions = model.predict(img_array)
+    # score = tf.nn.softmax(predictions[0])
 
     # st.text(
     #  "예측값: {}(정확도 {:.2f}%)"
@@ -111,23 +105,17 @@ img3 = Image.open("./Img_test_chicken.jpg")
 st.image(img3, width=400, caption="입력 데이터 : 후라이드치킨")
 
 if st.button("button"):
-    path3 = "./kfood/후라이드치킨/Img_028_0000.jpg"
-    img3 = keras.preprocessing.image.load_img(
-     path3, target_size=(180, 180)
-    )
+    # path3 = "./kfood/후라이드치킨/Img_028_0000.jpg"
+    # img3 = keras.preprocessing.image.load_img(
+    #  path3, target_size=(180, 180)
+    # )
+    #
+    # img_array = keras.preprocessing.image.img_to_array(img3)
+    # img_array = tf.expand_dims(img_array, 0)  # Create a batch
+    # model = keras.models.load_model('./kf_model2.h5')
+    # predictions = model.predict(img_array)
+    # score = tf.nn.softmax(predictions[0])
 
-    img_array = keras.preprocessing.image.img_to_array(img3)
-    img_array = tf.expand_dims(img_array, 0)  # Create a batch
-    model = keras.models.load_model('./kf_model2.h5')
-    predictions = model.predict(img_array)
-    score = tf.nn.softmax(predictions[0])
-    class_names = [
-        '후라이드치킨', '간장게장', '갈비구이', '갈비찜', '갈비탕', '갈치구이', '갈치조림', '감자전', '감자조림', '감자채볶음', '감자탕', '갓김치', '건새우볶음', '경단',
-         '계란국', '계란말이', '계란찜', '계란후라이', '고등어구이', '고등어조림', '고사리나물', '고추장진미채볶음', '고추튀김', '곱창구이', '곱창전골', '과메기', '김밥',
-         '김치볶음밥', '김치전', '김치찌개', '김치찜', '깍두기', '깻잎장아찌', '꼬막찜', '꽁치조림', '꽈리고추무침', '꿀떡', '나박김치', '누룽지', '닭갈비', '닭계장',
-         '닭볶음탕', '더덕구이', '도라지무침', '도토리묵', '동그랑땡', '동태찌개', '된장찌개', '두부김치', '두부조림', '땅콩조림', '떡갈비', '떡꼬치', '떡만두국', '떡볶이',
-         '라면', '라볶이', '막국수', '만두', '매운탕', '멍게', '메추리알장조림', '멸치볶음', '무국', '무생채', '물냉면', '물회', '미역국', '미역줄기볶음', '불고기', '전복죽'
-    ]
     #
     # st.text(
     #  "예측값: {}(정확도 {:.2f}%)"
