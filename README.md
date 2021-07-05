@@ -58,6 +58,7 @@
 * e. 새로운 게임 판매량 예측  
 * f. 시계열데이터_COVID-19 확진자 수 예측  
 * g. 배틀그라운드 여포vs존버  
+* h. 시계열데이터_소비자물가예측  
 
 2_3. [SQL](https://github.com/mjkimcs/portfolio/tree/main/SQL) 활용   
 * a. RFM 분석  
